@@ -1,4 +1,4 @@
-﻿namespace Lab1
+namespace Lab1
 {
     public class White
     {
@@ -7,7 +7,16 @@
             bool answer = false;
 
             // code here
+            double d;
 
+            if (d > 0, )
+            {
+                bool answer = true;
+            }
+            else (d < 0, d == 0)
+            {
+                bool answer = false;
+            }
             // end
 
             return answer;
@@ -17,6 +26,14 @@
             bool answer = false;
 
             // code here
+            int n;
+
+            if (n % 2 == 0)
+                bool answer = true;
+            else
+                bool answer = false;
+
+            return 0;
 
             // end
 
@@ -27,7 +44,13 @@
             int answer = 0;
 
             // code here
+            int a;
+            int b;
 
+            if (a > b)
+                return a
+            else
+                return b
             // end
 
             return answer;
@@ -37,6 +60,29 @@
             double answer = 0;
 
             // code here
+            double d;
+            double f;
+
+            double Trued = d;
+            double Truef = f;
+
+            if (d < 0) {
+                Trued = -d;
+            }
+
+            if (f < 0) {
+                Truef = -fd;
+            }
+
+            if (Trued < Truef)
+            {
+                return f;
+            }
+            else
+            {
+                return d;
+            }
+        }
 
             // end
 
@@ -47,7 +93,7 @@
             double answer = 0;
 
             // code here
-
+            double 
             // end
 
             return answer;
