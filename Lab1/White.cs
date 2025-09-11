@@ -86,7 +86,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-                if (Math.Abs(x * x + y * y + r * r) <= 1e-6 )
+                if (Math.Abs(x * x + y * y + r * r) <= Math.Pow(10, -6) )
                 {
                     answer = true;
                 }
@@ -129,4 +129,5 @@ namespace Lab1
         }
     }
 }
+
 
