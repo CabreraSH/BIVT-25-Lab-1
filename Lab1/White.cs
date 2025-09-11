@@ -51,19 +51,8 @@ namespace Lab1
             double answer = 0;
 
             // code here
-            double Trued = d;
-            double Truef = f;
-            
-            if (d < 0)
-            {
-                Trued = -d;
-            }
-            if (f < 0)
-            {
-                Truef = -f;
-            }
 
-            if (Trued <= Truef)
+            if (Math.Abs(d) <= Math.Abs(f))
             {
                 answer = d;
             }
@@ -81,18 +70,7 @@ namespace Lab1
             double answer = 0;
 
             // code here
-            double abx = x;
-            
-                if (x >= 0)
-                {
-                    abx = x;
-                }
-                    else
-                    {
-                        abx = -x;
-                    }
-
-                if (abx > 1)
+                if (Math.Abs(x) > 1)
                 {
                     answer = 1;
                 }
@@ -101,7 +79,6 @@ namespace Lab1
                     answer = x;
                     }
             // end
-
             return answer;
         }
         public bool Task6(double x, double y, double r)
@@ -109,14 +86,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-                double circle = x * x + y * y + r * r;
-
-                    if (circle < 0)
-                    {
-                        circle = -circle;
-                    }
-
-                if (circle <= 1e-6 )
+                if (Math.Abs(x * x + y * y + r * r) <= 1e-6 )
                 {
                     answer = true;
                 }
@@ -159,3 +129,4 @@ namespace Lab1
         }
     }
 }
+
