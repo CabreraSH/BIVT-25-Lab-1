@@ -7,15 +7,9 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            double d;
-
-            if (d > 0, )
+            if (d > 0)
             {
-                bool answer = true;
-            }
-            else (d < 0, d == 0)
-            {
-                bool answer = false;
+                answer = true;
             }
             // end
 
@@ -26,15 +20,10 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            int n;
-
             if (n % 2 == 0)
-                bool answer = true;
-            else
-                bool answer = false;
-
-            return 0;
-
+            {
+            answer = true;
+            }
             // end
 
             return answer;
@@ -44,13 +33,15 @@ namespace Lab1
             int answer = 0;
 
             // code here
-            int a;
-            int b;
-
             if (a > b)
-                return a
+            {
+                answer = a;
+            }
+            
             else
-                return b
+            {
+                answer = b;
+            }
             // end
 
             return answer;
@@ -60,30 +51,27 @@ namespace Lab1
             double answer = 0;
 
             // code here
-            double d;
-            double f;
-
             double Trued = d;
             double Truef = f;
-
-            if (d < 0) {
+            
+            if (d < 0)
+            {
                 Trued = -d;
             }
-
-            if (f < 0) {
-                Truef = -fd;
+            if (f < 0)
+            {
+                Truef = -f;
             }
 
-            if (Trued < Truef)
+            if (Trued <= Truef)
             {
-                return f;
+                answer = d;
             }
             else
             {
-                return d;
+                answer = f;
             }
         }
-
             // end
 
             return answer;
@@ -93,7 +81,25 @@ namespace Lab1
             double answer = 0;
 
             // code here
-            double 
+            double abx = x;
+            
+                if (x >= 0)
+                {
+                    abx = x;
+                }
+                    else
+                    {
+                        abx = -x;
+                    }
+
+                if (abx > 1)
+                {
+                    answer = 1;
+                }
+                    else
+                    {
+                    answer = x;
+                    }
             // end
 
             return answer;
@@ -103,7 +109,17 @@ namespace Lab1
             bool answer = false;
 
             // code here
+                double circle = x * x + y * y + r * r;
 
+                    if (circle < 0)
+                    {
+                        circle = -circle;
+                    }
+
+                if (circle <= 1e-6 )
+                {
+                    answer = true;
+                }
             // end
 
             return answer;
@@ -114,7 +130,17 @@ namespace Lab1
             bool answer = false;
 
             // code here
+                int s = n * n;
 
+                    if ((s - n) > (2 * n))
+                    { 
+                        if (n % 2 == 0)
+                        {
+                            answer = true;
+                        }
+                    }
+            return answer;
+            
             // end
 
             return answer;
@@ -124,7 +150,9 @@ namespace Lab1
             bool answer = false;
 
             // code here
-
+                if ((L <= 30) && (T + M >= 5) && (M % 2 == 0)) {
+                answer = true;
+            }
             // end
 
             return answer;
