@@ -102,15 +102,11 @@ namespace Lab1
             // code here
                 int s = n * n;
 
-                    if ((s - n) > (2 * n))
+                    if (((s - n) > (2 * n)) && (n % 2 == 0))
                     { 
-                        if (n % 2 == 0)
-                        {
                             answer = true;
-                        }
                     }
             return answer;
-            
             // end
 
             return answer;
@@ -129,5 +125,6 @@ namespace Lab1
         }
     }
 }
+
 
 
